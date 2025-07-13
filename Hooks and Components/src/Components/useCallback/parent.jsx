@@ -10,6 +10,7 @@ function Parent() {
     return "Hye this me Arrow";
   }, [count]); 
   
+console.log(myfun);
 
   return (
     <>

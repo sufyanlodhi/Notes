@@ -1,18 +1,21 @@
-import MyComponent from "./Components/useeffect"
-import Login from "./Components/logincomponents/login"
+import { useEffect, React, useCallback, useMemo, useState  } from "react";
+
 import Useref from "./Components/useref"
 import Usememo from "./Components/usememo";
-import { useCallback, useMemo, useState } from "react";
 import Parent from "./Components/useCallback/parent";
+
+
 
 function App() {
 
 
   return (
     <>
- <Parent />
+
+    <Parent></Parent>
+
     </>
-  );
+  )
 }
 
 export default App;
